@@ -1,5 +1,4 @@
 {
-  "public": true,
   "builds": [
     {
       "src": "portal.html",
@@ -13,3 +12,4 @@
     }
   ]
 }
+
