@@ -1,0 +1,15 @@
+{
+  "public": true,
+  "builds": [
+    {
+      "src": "portal.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/portal.html"
+    }
+  ]
+}
